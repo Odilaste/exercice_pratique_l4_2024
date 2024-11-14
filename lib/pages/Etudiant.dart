@@ -155,7 +155,7 @@ class _Etudiant extends State<etudiant> {
                     });
                   },
                   validator: (value) => value == null
-                      ? 'Veuillez sélectionner une promotion'
+                      ? 'Veuillez sélectionner la promotion'
                       : null,
                 ),
                 SizedBox(height: 16.0),
